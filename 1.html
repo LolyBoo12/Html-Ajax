@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Landing Page Contoh</title>
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 960px;
+      padding: 20px;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .search-box input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .search-box button {
+      padding: 10px;
+      margin-left: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .image-box {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .image-box img {
+      width: 30%; /* Set the width of each image to 48% to create 2 columns */
+      margin-bottom: 10px;
+    }
+ </style>
+</head>
+<body>
+ <div class="header">
+    <h1>Selamat Datang di Website Kami</h1>
+ </div>
+
+ <div class="container">
+    <p>Situs ini adalah contoh untuk landing page yang baik. Anda bisa mencari apa yang Anda butuhkan dengan menggunakan search box di bawah ini.</p>
+
+    <div class="search-box">
+      <form action="/search" method="get">
+        <input type="text" name="query" placeholder="Cari disini...">
+        <button type="submit">Cari</button>
+      </form>
+    </div>
+
+    <div class="image-box">
+      <img src="https://i.pinimg.com/564x/cd/82/a8/cd82a8467ada4e847ab5fa03795085b6.jpg" alt="Contoh Gambar 1">
+      <img src="https://i.pinimg.com/564x/cd/82/a8/cd82a8467ada4e847ab5fa03795085b6.jpg" alt="Contoh Gambar 2">
+      <img src="https://i.pinimg.com/564x/cd/82/a8/cd82a8467ada4e847ab5fa03795085b6.jpg" alt="Contoh Gambar 3">
+      <img src="https://i.pinimg.com/564x/cd/82/a8/cd82a8467ada4e847ab5fa03795085b6.jpg" alt="Contoh Gambar 4">
+      <img src="https://i.pinimg.com/564x/cd/82/a8/cd82a8467ada4e847ab5fa03795085b6.jpg" alt="Contoh Gambar 5">
+    </div>
+ </div>
+</body>
+</html>
